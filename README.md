@@ -2,9 +2,9 @@
 
 A full-stack SaaS admin dashboard to manage user subscriptions, plans, and profiles — built as a technical assessment.
 
-**Author:** [Your Name]  
-**Contact:** [your@email.com]  
-**GitHub:** https://github.com/yourusername/subscription-dashboard-task
+**Author:** Rishichandar  
+**Contact:** rishiselvan0@gmail.com  
+**GitHub:** https://github.com/Rishichandar/subscription-dashboard-task
 
 ---
 
@@ -148,20 +148,6 @@ If Stripe is not configured, the app automatically falls back to free subscripti
 
 ---
 
-## 🚢 Deployment
-
-### Backend (Render)
-1. Push repo to GitHub
-2. Create new Web Service on Render → connect repo → set root to `server`
-3. Build command: `npm install`
-4. Start command: `npm start`
-5. Add environment variables from `.env.example`
-
-### Frontend (Vercel)
-1. Import project on Vercel → set root to `client`
-2. Build command: `npm run build`
-3. Output directory: `dist`
-4. Add `VITE_API_URL` env var if not using proxy
 
 ---
 
